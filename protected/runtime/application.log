@@ -1776,3 +1776,182 @@ Stack trace:
 REQUEST_URI=/imladris/site/images/pl.gif
 HTTP_REFERER=http://yii/imladris/site/login
 ---
+2015/06/04 15:16:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imladris/imladris".' in C:\MyWorkspace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('imladris/imladr...')
+#1 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/imladris/imladris/imladris
+---
+2015/06/04 15:16:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imladris/images/ru.gif".' in C:\MyWorkspace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('imladris/images...')
+#1 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/imladris/imladris/images/ru.gif
+HTTP_REFERER=http://yii/imladris/imladris/imladris
+---
+2015/06/04 15:16:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imladris/images/ua.gif".' in C:\MyWorkspace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('imladris/images...')
+#1 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/imladris/imladris/images/ua.gif
+HTTP_REFERER=http://yii/imladris/imladris/imladris
+---
+2015/06/04 15:16:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imladris/images/en.gif".' in C:\MyWorkspace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('imladris/images...')
+#1 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/imladris/imladris/images/en.gif
+HTTP_REFERER=http://yii/imladris/imladris/imladris
+---
+2015/06/04 15:16:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imladris/images/pl.gif".' in C:\MyWorkspace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('imladris/images...')
+#1 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/imladris/imladris/images/pl.gif
+HTTP_REFERER=http://yii/imladris/imladris/imladris
+---
+2015/06/04 15:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imladris/imladris".' in C:\MyWorkspace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('imladris/imladr...')
+#1 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/imladris/imladris/imladris
+---
+2015/06/04 15:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imladris/images/ru.gif".' in C:\MyWorkspace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('imladris/images...')
+#1 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/imladris/imladris/images/ru.gif
+HTTP_REFERER=http://yii/imladris/imladris/imladris
+---
+2015/06/04 15:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imladris/images/ua.gif".' in C:\MyWorkspace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('imladris/images...')
+#1 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/imladris/imladris/images/ua.gif
+HTTP_REFERER=http://yii/imladris/imladris/imladris
+---
+2015/06/04 15:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imladris/images/pl.gif".' in C:\MyWorkspace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('imladris/images...')
+#1 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/imladris/imladris/images/pl.gif
+HTTP_REFERER=http://yii/imladris/imladris/imladris
+---
+2015/06/04 15:17:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "imladris/images/en.gif".' in C:\MyWorkspace\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('imladris/images...')
+#1 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/imladris/imladris/images/en.gif
+HTTP_REFERER=http://yii/imladris/imladris/imladris
+---
+2015/06/04 15:18:36 [error] [exception.CException] exception 'CException' with message 'L'alias « application.components.post.Edit » est invalide. Vérifiez qu'il pointe vers un fichier PHP existant.' in C:\MyWorkspace\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\YiiBase.php(196): YiiBase::import('application.com...', true)
+#1 C:\MyWorkspace\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(PostController), 'edit')
+#2 C:\MyWorkspace\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'edit', 'edit')
+#3 C:\MyWorkspace\yii\framework\web\CController.php(259): CController->createAction('edit')
+#4 C:\MyWorkspace\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#5 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/edit')
+#6 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/imladris/post/edit
+---
+2015/06/04 15:19:52 [error] [exception.CException] exception 'CException' with message 'L'alias « application.components.post.EditAction » est invalide. Vérifiez qu'il pointe vers un fichier PHP existant.' in C:\MyWorkspace\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\YiiBase.php(196): YiiBase::import('application.com...', true)
+#1 C:\MyWorkspace\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(PostController), 'edit')
+#2 C:\MyWorkspace\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'edit', 'edit')
+#3 C:\MyWorkspace\yii\framework\web\CController.php(259): CController->createAction('edit')
+#4 C:\MyWorkspace\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#5 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/edit')
+#6 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/imladris/post/edit
+---
+2015/06/04 15:21:28 [error] [exception.CException] exception 'CException' with message 'L'alias « application.components.post.EditAction » est invalide. Vérifiez qu'il pointe vers un fichier PHP existant.' in C:\MyWorkspace\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\YiiBase.php(196): YiiBase::import('application.com...', true)
+#1 C:\MyWorkspace\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(PostController), 'edit')
+#2 C:\MyWorkspace\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'edit', 'edit')
+#3 C:\MyWorkspace\yii\framework\web\CController.php(259): CController->createAction('edit')
+#4 C:\MyWorkspace\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#5 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/edit')
+#6 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/imladris/post/edit
+---
+2015/06/04 15:22:16 [error] [exception.CException] exception 'CException' with message 'L'alias « application.controllers.post.Edit » est invalide. Vérifiez qu'il pointe vers un fichier PHP existant.' in C:\MyWorkspace\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\YiiBase.php(196): YiiBase::import('application.con...', true)
+#1 C:\MyWorkspace\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(PostController), 'edit')
+#2 C:\MyWorkspace\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'edit', 'edit')
+#3 C:\MyWorkspace\yii\framework\web\CController.php(259): CController->createAction('edit')
+#4 C:\MyWorkspace\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#5 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/edit')
+#6 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/imladris/post/edit
+---
+2015/06/04 15:22:26 [error] [exception.CException] exception 'CException' with message 'L'alias « application.controllers.post.Edit » est invalide. Vérifiez qu'il pointe vers un fichier PHP existant.' in C:\MyWorkspace\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\YiiBase.php(196): YiiBase::import('application.con...', true)
+#1 C:\MyWorkspace\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(PostController), 'edit')
+#2 C:\MyWorkspace\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'edit', 'edit')
+#3 C:\MyWorkspace\yii\framework\web\CController.php(259): CController->createAction('edit')
+#4 C:\MyWorkspace\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#5 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/edit')
+#6 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/imladris/post/edit
+---
+2015/06/04 15:22:27 [error] [exception.CException] exception 'CException' with message 'L'alias « application.controllers.post.Edit » est invalide. Vérifiez qu'il pointe vers un fichier PHP existant.' in C:\MyWorkspace\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\YiiBase.php(196): YiiBase::import('application.con...', true)
+#1 C:\MyWorkspace\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(PostController), 'edit')
+#2 C:\MyWorkspace\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'edit', 'edit')
+#3 C:\MyWorkspace\yii\framework\web\CController.php(259): CController->createAction('edit')
+#4 C:\MyWorkspace\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#5 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/edit')
+#6 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/imladris/post/edit
+---
+2015/06/04 15:22:27 [error] [exception.CException] exception 'CException' with message 'L'alias « application.controllers.post.Edit » est invalide. Vérifiez qu'il pointe vers un fichier PHP existant.' in C:\MyWorkspace\yii\framework\YiiBase.php:323
+Stack trace:
+#0 C:\MyWorkspace\yii\framework\YiiBase.php(196): YiiBase::import('application.con...', true)
+#1 C:\MyWorkspace\yii\framework\web\CController.php(440): YiiBase::createComponent(Array, Object(PostController), 'edit')
+#2 C:\MyWorkspace\yii\framework\web\CController.php(417): CController->createActionFromMap(Array, 'edit', 'edit')
+#3 C:\MyWorkspace\yii\framework\web\CController.php(259): CController->createAction('edit')
+#4 C:\MyWorkspace\yii\framework\web\CWebApplication.php(282): CController->run('edit')
+#5 C:\MyWorkspace\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('post/edit')
+#6 C:\MyWorkspace\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#7 C:\MyWorkspace\yii\imladris\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/imladris/post/edit
+---
