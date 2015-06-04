@@ -13,7 +13,8 @@
  */
 class Edit extends CAction{
     //put your code here
-    public function run() {
-        echo 11;
+    public function run($col, $avg) {
+        echo "Col : $col <br>";
+        echo "Avg : $avg <br>";
     }
 }
