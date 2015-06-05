@@ -18,4 +18,9 @@ class PostController extends Controller{
             'edit' => 'application.controllers.post.Edit',
         );
     }
+    public function filters() {
+        return [
+            ['application.filters.SimpleFilter + edit',]
+        ];
+    }
 }
