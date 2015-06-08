@@ -11,3 +11,17 @@ defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
 
 require_once($yii);
 Yii::createWebApplication($config)->run();
+
+//Using component
+$document = new MyComponent;
+$document->textWidth = 100;
+echo $document->textWidth;
+$document->completed = true; // can't get this property
+echo $document->textHeight; // can't set this property
+
+$document->onClicked = function($event){
+    echo "This is onClick method by event<br>";
+};
+
+$document->attachBehavior($name,$behavior); // test() является методом $behavior $component->test();
+$document->test();
