@@ -23,5 +23,3 @@ $document->onClicked = function($event){
     echo "This is onClick method by event<br>";
 };
 
-$document->attachBehavior($name,$behavior); // test() является методом $behavior $component->test();
-$document->test();
