@@ -37,12 +37,20 @@ class SiteController extends Controller
 	 */
 	public function actionError()
 	{
+            
+            /*echo "<pre>";
+            print_r(Yii::app()->errorHandler->error);
+            echo "</pre>";*/
 		if($error=Yii::app()->errorHandler->error)
 		{
 			if(Yii::app()->request->isAjaxRequest)
 				echo $error['message'];
-			else
-				$this->render('error', $error);
+			else{
+                            if($error['code'] == 404)
+				$this->render('error404', $error);
+                            elseif($error['code'] == 403)
+                                $this->render('error403', $error);
+                        }
 		}
 	}
 
