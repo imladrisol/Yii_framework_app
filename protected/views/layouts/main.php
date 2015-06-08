@@ -23,7 +23,11 @@
 <div class="container" id="page">
 
 	<div id="header">
-		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?></div>
+		<div id="logo"><?php echo CHtml::encode(Yii::app()->name); ?>
+                 <?php
+                        $this->widget('application.components.widgets.MyWidget');
+                    ?>
+                </div>
                 <div id="language-selector" style="float:right; margin: 5px;">
                     <?php
                         $this->widget('application.components.widgets.LanguageSelector');
